@@ -4,4 +4,12 @@ class PagesController < ApplicationController
 
   def about
   end
+
+  def products
+  end
+
+  def login
+  end
+
+
 end
