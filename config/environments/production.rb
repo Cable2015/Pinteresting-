@@ -1,4 +1,4 @@
-Pinteresting::application.configure do
+Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -77,7 +77,8 @@ Pinteresting::application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
 
-  # required for Heroku
-  # Note to set this to your actual host
-  config.action_mailer.default_url_options = { :host => 'www.startlytics.com' }
+
+  #required for Heroku
+  config.action_mailer.default_url_options = { :host => 'wwww.startlytics.herokuapp.com' }
+
 end

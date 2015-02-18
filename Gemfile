@@ -20,12 +20,12 @@ end
 
 group :production do
 	gem 'pg'  # Postgres
-	gem 'rails_12factor'
+	gem 'rails_12factor', group: :production
 end
 
 group :development, :test do
 
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
+  # Call 'byebug' anywhere in the code to stop execution and get a dgit pusebugger console
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
