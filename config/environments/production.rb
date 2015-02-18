@@ -79,6 +79,6 @@ Rails.application.configure do
 
 
   #required for Heroku
-  config.action_mailer.default_url_options = { :host => 'wwww.startlytics.herokuapp.com' }
+  config.action_mailer.default_url_options = { :host => 'wwww.startlytics.com' }
 
 end
